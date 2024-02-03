@@ -19,7 +19,7 @@ let g:loaded_Signature = 1
 "" Global variables                                                                                                 {{{1
 "
 call signature#utils#Set('g:SignaturePrioritizeMarks',         1                                                     )
-call signature#utils#Set('g:SignatureIncludeMarks',            'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+call signature#utils#Set('g:SignatureIncludeMarks',            'ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 call signature#utils#Set('g:SignatureIncludeMarkers',          ')!@#$%^&*('                                          )
 call signature#utils#Set('g:SignatureMarkTextHL',              "SignatureMarkText"                                   )
 call signature#utils#Set('g:SignatureMarkTextHLDynamic',       0                                                     )
